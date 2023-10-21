@@ -1,0 +1,131 @@
+@charset "ISO-8859-1";
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:300|Roboto:300italic,300);
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 100px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.button {
+  object-position: top;
+  display: inline-block;
+  position: absolute;
+  right: 5%;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4285f4;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.main {
+  height: 900px;
+  width: 900px;
+  margin: 0px auto 0;
+  display: block;
+  border-radius: 5px 5px 5px 5px;
+  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  background: #4285f4;
+  padding: 30px 0;
+  border-top: 400px;
+  border-radius: 50px 50px 0 0;
+  
+}
+h4 {
+  color: #fff;
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  line-height: 0.1em;
+  text-align: center;
+}
+p {
+  color: #0d47a1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.form {
+  background: #eee;
+  padding: 80px 25px; 
+  border-radius: 100px 100px 100px 100px;
+  border: 200px solid #ddd;
+  border-top: 20px;
+  
+}
+
+a {
+  color: #bbb;
+  text-decoration: underline;
+}
+
+/* -- FORM STYLE --*/
+
+input {
+  background: none;
+  border: solid 2px #4285f4;
+  color: #555;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: 300;
+  display: inline-block;
+}
+  :focus, :active{
+    outline: none;
+  }
+  [type="text"],[type="email"] {
+    border: none;
+    border-bottom: solid 2px #4285f4;
+  }
+  
+    
+  button {
+      color: white;
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      background-color: #4285f4;
+       border: none;
+       border-radius: 15px;
+       border-color: #4285f4;
+    }
+ 
+.input-group {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+  border: none;
+    border-bottom: solid 2px #4285f4;
+}
+  input {
+    padding: 15px 0px;
+}
+  label{
+    position:(absolute, 50% null null 0px);
+    transform:(translateY(-50%));
+    font-family: 'Roboto', sans-serif;
+      font-style: italic;
+      size: 18px;
+    color: blue;
+    pointer-events: none;
+    transition-property: none ;
+  }
+  input:focus + label,
+  input.has-value + label {
+    top: -10px;
+    font-size: 12px;
+    color: #bbb;
+  }

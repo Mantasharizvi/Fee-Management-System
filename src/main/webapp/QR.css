@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+	.sh {
+	background-image: url("images/card.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1200px;
+	max-height:550px;
+}
+
+.container {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-control{
+    border: 1px solid #b2bec3;
+	border-radius: 10px; 
+	background-color:pink;
+    color:blue;
+}
+.h2{
+	background-color:green;	
+	border: 1px solid #b2bec3;
+	border-radius: 20px; 
+   padding-right: 50px;
+   align-items: center;
+    
+}
+.L1{
+	border: 1px solid #b2bec3;
+	border-radius: 5px; 
+}
+.p{
+    background-color:green;	
+	border: 1px solid #b2bec3;
+	border-radius: 20px; 
+	color:black;
+}

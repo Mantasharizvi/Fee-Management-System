@@ -1,0 +1,129 @@
+@charset "ISO-8859-1";
+ .button {
+  display: inline-block;
+  position: absolute;
+  right: 5%;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #00549a;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+button.btn.edit::before { 
+  font-family: fontAwesome;
+  content: "\f044\00a0";
+ 
+}
+button.btn.cancel::before {
+  font-family: fontAwesome;
+  content: "\f00d\00a0";
+  
+}
+.btn {
+    float: left;
+    clear: both;
+    background: url(imgs/button_left.png) no-repeat;
+    padding: 0 0 0 10px;
+    margin: 5px 0;
+}
+.btn a{
+    float: left;
+    height: 40px;
+    background: url(imgs/button_middle.png) repeat-x left top;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.button:hover {background-color: #00549a}
+
+.button:active {
+  background-color: #00549a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 60%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #00549a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 90%;
+  border: 1px solid #00549a;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+  
+}
+
+#myTable tr {
+  border-bottom: 1px solid #00549a;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #00549a;
+  text-decoration-color: #fff;
+}
+.table-wrapper {
+
+overflow-y: scroll;
+overflow-x: scroll;
+height: fit-content;
+max-height: 66.4vh;
+
+margin-top: 22px;
+
+margin: 15px;
+padding-bottom: 20px;
+
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #00549a;
+  color: white;
+  margin-top: 15px;
+  border: none;
+  border-radius: 15px;
+}
+
+.next {
+  background-color: #00549a;
+  color: white;
+  margin-top: 25px;
+  border: none;
+  border-radius: 15px;
+  margin-left: 1000px;
+}
